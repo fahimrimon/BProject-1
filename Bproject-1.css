@@ -1,0 +1,67 @@
+*{
+    font-family: sans-serif;
+}
+.navbar-brand img{
+    width: 80px;
+    height: 50px;
+}
+.navbar-toggler-icon{
+    background-image: url(../BProject-1/menu.png)!important;
+}
+#home{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../BProject-1/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    background-attachment: fixed;
+}
+.home-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.home-center h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+
+}
+.home-center p{
+    color: white;
+    font-weight: 500;
+}
+.home-btn .btn-learnmore{
+    border: 2px solid white;
+    color: black;
+    font-size: 20px;
+    padding: 5px 15px;
+}
+.home-btn .btn-learnmore:hover{
+    color: black;
+    background-color: white;
+}
+.home-btn .btn-getstarted{
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+    font-size: 20px;
+    padding: 5px 15px;
+}
+.home-btn .btn-getstarted:hover{
+    color: white;
+    background-color:rgb(6, 183, 236);
+}
+.carousel-inner{
+    text-align: center;
+}
+.carousel-inner .carousel-item img{
+          border-radius: 50%;
+          width: 30%;
+}
+.fthome{
+    text-decoration: none;
+    color: white;
+}
